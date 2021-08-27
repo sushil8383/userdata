@@ -29,8 +29,8 @@ const App=()=> {
             data={users}
             RenderComponent={Post}
             
-            pageLimit={10}
-            dataLimit={3}
+            pageLimit={3}
+            dataLimit={1}
           />
         </>
       ) : (
